@@ -1,20 +1,19 @@
 /* script.js */
 
 // --- 1. SETUP IMAGES ---
-// Updated list including Image 25, 26, 27, and 28
+// Updated to match your new filenames exactly: IMG1 to IMG10, plus IMA11
 const myImages = [
-    'Image (17).JPG',
-    'Image (18).JPG',
-    'Image (19).JPG',
-    'Image (20).JPG',
-    'Image (21).JPG',
-    'Image (22).JPG',
-    'Image (23).JPG',
-    'Image (24).JPG',
-    'Image (25.JPG',
-    'Image (26.JPG',
-    'Image (27.JPG',
-    'Image (28.JPG'
+    'IMG1.JPG',
+    'IMG2.JPG',
+    'IMG3.JPG',
+    'IMG4.JPG',
+    'IMG5.JPG',
+    'IMG6.JPG',
+    'IMG7.JPG',
+    'IMG8.JPG',
+    'IMG9.JPG',
+    'IMG10.JPG',
+    'IMA11.JPG'
 ];
 
 // --- 2. GALLERY LOGIC ---
