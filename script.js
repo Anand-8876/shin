@@ -3,17 +3,17 @@
 // --- 1. SETUP IMAGES ---
 // Updated to match your new filenames exactly: IMG1 to IMG10, plus IMA11
 const myImages = [
-    'IMG1.JPG',
-    'IMG2.JPG',
-    'IMG3.JPG',
-    'IMG4.JPG',
-    'IMG5.JPG',
-    'IMG6.JPG',
-    'IMG7.JPG',
-    'IMG8.JPG',
-    'IMG9.JPG',
-    'IMG10.JPG',
-    'IMA11.JPG'
+    'IMG1.jpg',
+    'IMG2.jpg',
+    'IMG3.jpg',
+    'IMG4.jpg',
+    'IMG5.jpg',
+    'IMG6.jpg',
+    'IMG7.jpg',
+    'IMG8.jpg',
+    'IMG9.jpg',
+    'IMG10.jpg',
+    'IMA11.jpg'
 ];
 
 // --- 2. GALLERY LOGIC ---
