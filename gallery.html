@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Memories</a>
-        <a href="letter.html">Letter</a>
-        <a href="surprise.html">Surprise</a>
+        <a href="index.html" aria-label="Home">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="gallery.html" class="active" aria-label="Memories">
+            <i class="fas fa-images"></i>
+        </a>
+        <a href="letter.html" aria-label="Letter">
+            <i class="fas fa-envelope-open-text"></i>
+        </a>
+        <a href="surprise.html" aria-label="Surprise">
+            <i class="fas fa-gift"></i>
+        </a>
     </nav>
 
     <div class="container">
@@ -21,7 +30,9 @@
         <div class="gallery-grid" id="gallery-grid"></div>
         
         <br>
-        <a href="letter.html" class="btn">Read My Letter &rarr;</a>
+        <a href="letter.html" class="btn" aria-label="Read My Letter">
+            <i class="fas fa-heart"></i>
+        </a>
     </div>
 
     <script src="script.js"></script>

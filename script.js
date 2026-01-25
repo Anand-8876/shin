@@ -13,7 +13,11 @@ const myImages = [
     'IMG8.jpg',
     'IMG9.jpg',
     'IMG10.jpg',
-    'IMA11.jpg'
+    'IMA11.jpg',
+    'img66.jpg',
+    'img67.jpg',
+    'img68.jpg',
+    'img69.jpg'
 ];
 
 // --- 2. GALLERY LOGIC ---
@@ -86,7 +90,7 @@ if (document.querySelector('.cake-container')) {
         
         // 3. Update Text
         document.querySelector('h1').innerText = "Yay! Happy Birthday Shinjini! 🎉";
-        btn.innerText = "Enjoy your day! ❤️";
+        btn.innerText = "❤️";
         btn.disabled = true;
         btn.style.opacity = "0.7";
     });
